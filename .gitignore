@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -130,6 +131,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 =======
+=======
+>>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -160,4 +163,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+<<<<<<< HEAD
+>>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
+=======
 >>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
