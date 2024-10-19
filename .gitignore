@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -133,6 +134,8 @@ dist
 =======
 =======
 >>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
+=======
+>>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -164,6 +167,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
+=======
 >>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
 =======
 >>>>>>> b252a5c (first edits - removed some components and links <incomplete>)
