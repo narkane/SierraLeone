@@ -12,6 +12,15 @@ class NavOne extends Component {
     componentDidMount(){
         window.addEventListener('scroll', this.handleScroll);
 
+        const plusbtn = document.getElementById('#plus-btn');
+        plusbtn.addEventListener('click', function() {
+            if(document.getElementById('#submenu').style.display != "none"){
+                document.getElementById('#submenu').style.display = "none"
+            }else{
+                document.getElementById('#submenu').style.display = "initial"
+            }
+        });
+
         //Mobile Menu
         this.mobileMenu();
     }
@@ -162,13 +171,13 @@ class NavOne extends Component {
                         <div className="side-menu-wrap">
                             <ul className="side-menu-ul">
                                 <li className="sidenav__item"><a href="/">home</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/"><a>Home 1</a></Link></li>
+                                    {/* <span className="menu-plus-icon"></span> */}
+                                    {/* <ul className="side-sub-menu"> */}
+                                        {/* <li><Link href="/"><a>Home 1</a></Link></li> */}
                                         {/* <li><Link href="/index2"><a>Home 2</a></Link></li> */}
-                                    </ul>
+                                    {/* </ul> */}
                                 </li>
-                                <li className="sidenav__item"><a href="#">causes</a>
+                                {/* <li className="sidenav__item"><a href="#">causes</a>
                                     <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
                                         <li><Link href="/causes"><a>causes</a></Link></li>
@@ -189,10 +198,10 @@ class NavOne extends Component {
                                         <li><Link href="/news"><a>news</a></Link></li>
                                         <li><Link href="/single-news"><a>news detail</a></Link></li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li className="sidenav__item"><a href="#">pages</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
+                                    <span className="menu-plus-icon" id="#plus-btn"></span>
+                                    <ul className="side-sub-menu" id="#submenu">
                                         <li><Link href="/about"><a>about</a></Link></li>
                                         <li><Link href="/gallery"><a>gallery</a></Link></li>
                                         <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>

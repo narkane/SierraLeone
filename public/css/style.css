@@ -354,12 +354,14 @@ a:hover {
     align-items: center;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo {
-    height: 120px;
+    height: 80px;
+    /* 120px; */
     display: table;
     vertical-align: middle;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo a {
-    height: 120px;
+    height: 80px;
+    /* 120px; */
     display: table-cell;
     vertical-align: middle;
 }
@@ -372,7 +374,8 @@ a:hover {
     background-color: #f1ae44;
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu {
-    height: 120px;
+    height: 80px;
+    /* 120px; */
     position: relative;
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle {
