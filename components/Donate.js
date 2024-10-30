@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import PayPal from "../components/PayPal"
 
 const Donate = () => {
     return (
@@ -124,6 +125,8 @@ const Donate = () => {
                                         </div>
                                         <div style={{justifyContent: 'center'}} className="col-lg-12">
                                             <div/>
+                                            doge: {process.env.PAYPAL_CLIENT_ID}
+                                            <PayPal />
                                             <form action="https://www.paypal.com/donate" method="post" target="_top">
                                                 <input type="hidden" name="business" value="TPZWNMZVTVPZE" />
                                                 <input type="hidden" name="no_recurring" value="0" />

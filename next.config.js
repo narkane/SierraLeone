@@ -13,5 +13,9 @@ module.exports = withCSS(withSass({
         });
 
         return config;
-    }
+    },
+    env: {
+        NEXT_PUBLIC_PAYPAL_CLIENT_ID: process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID,
+        REACT_APP_PAYPAL_CLIENT_ID: process.env.REACT_APP_PAYPAL_CLIENT_ID
+      },
 }));
