@@ -354,14 +354,12 @@ a:hover {
     align-items: center;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo {
-    height: 80px;
-    /* 120px; */
+    height: 120px;
     display: table;
     vertical-align: middle;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo a {
-    height: 80px;
-    /* 120px; */
+    height: 120px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -374,8 +372,7 @@ a:hover {
     background-color: #f1ae44;
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu {
-    height: 80px;
-    /* 120px; */
+    height: 120px;
     position: relative;
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle {
@@ -476,7 +473,7 @@ a:hover {
     color: #818181;
     text-transform: capitalize;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 900;
     display: block;
     margin: 0 22px;
     padding-bottom: 17px;

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ModalVideo from 'react-modal-video';
+import ReactModal from 'react-modal';
 
 class EntryArea extends Component {
     constructor(){
@@ -31,10 +32,16 @@ class EntryArea extends Component {
                                     <div className="col-lg-4">
                                         <div className="entry-video-img">
                                             <img src="/images/entry-video-img.jpg" alt="entry-video-img" />
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='PbUxi2Lx8x8' onClose={this.handleModal} />
                                                 <div onClick={this.handleModal} className="mfp-iframe video-play-btn"
                                                    title="Play Video"><i className="fa fa-play"></i>
                                                 </div>
+                                                <ReactModal 
+           isOpen={this.state.isOpen}
+           contentLabel="Minimal Modal Example"
+           style={{background: 'black', zIndex:2}}
+        >
+          <button onClick={this.handleModal}>Close Modal</button>
+        </ReactModal>
                                         </div>
                                     </div>
                                     <div className="col-lg-8">
