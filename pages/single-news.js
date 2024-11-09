@@ -7,7 +7,7 @@ import NewsSingle from "../components/NewsSingle";
 
 const NewsSinglePage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Single News">
+        <Layout pageTitle="Sierra Leone Relief | Single News">
             <NavOne />
             <PageHeader title="Single News" />
             <NewsSingle />

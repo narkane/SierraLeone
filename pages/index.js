@@ -18,7 +18,7 @@ import CallToActionTwo from "../components/CallToActionTwo";
 
 const HomePage = () => {
     return (
-        <Layout pageTitle="Oxpitan - React Next Nonprofit Charity and Fundraising Template">
+        <Layout pageTitle="Sierra Leone Relief - React Next Nonprofit Charity and Fundraising Template">
           <NavOne />
           <SliderOne />
           <EntryArea />

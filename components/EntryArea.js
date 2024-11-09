@@ -35,19 +35,17 @@ class EntryArea extends Component {
                                                 <div onClick={this.handleModal} className="mfp-iframe video-play-btn"
                                                    title="Play Video"><i className="fa fa-play"></i>
                                                 </div>
-                                                <ReactModal 
+                                                <ModalVideo 
            isOpen={this.state.isOpen}
-           contentLabel="Minimal Modal Example"
-           style={{background: 'black', zIndex:2}}
+           youtube={true}
         >
-          <button onClick={this.handleModal}>Close Modal</button>
-        </ReactModal>
+          {/* <button onClick={this.handleModal}>Close Modal</button> */}
+        </ModalVideo>
                                         </div>
                                     </div>
                                     <div className="col-lg-8">
                                         <div className="entry-video-text">
-                                            <h4 className="entry__title">We are here to support you every step of the
-                                                way.</h4>
+                                            <h4 className="entry__title">A small group of people with a large community effort.</h4>
                                             <p className="entry__text">Watch us how we take care of everyone</p>
                                         </div>
                                     </div>

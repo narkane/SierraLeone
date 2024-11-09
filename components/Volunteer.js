@@ -43,7 +43,7 @@ const Volunteer = () => {
                                     </div>
                                     <div className="contact__item contact__item2">
                                         <h4>Send email</h4>
-                                        <a href="#">needhelp@oxpitan.com</a>
+                                        <a href="#">sierraleonerelief@yahoo.com</a>
                                     </div>
                                 </div>
                             </div>

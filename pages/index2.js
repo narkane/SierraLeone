@@ -18,7 +18,7 @@ import CallToActionThree from "../components/CallToActionThree";
 
 const HomePageTwo = () => {
     return (
-        <Layout pageTitle="Oxpitan | Home 2">
+        <Layout pageTitle="Sierra Leone Relief | Home 2">
             <NavTwo />
             <SliderTwo />
             <GiveArea />

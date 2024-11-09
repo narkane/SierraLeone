@@ -7,7 +7,7 @@ import Volunteer from "../components/Volunteer";
 
 const VolunteerPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Volunteer">
+        <Layout pageTitle="Sierra Leone Relief | Volunteer">
             <NavOne />
             <PageHeader title="become a volunteer" />
             <Volunteer />

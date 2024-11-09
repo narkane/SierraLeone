@@ -79,7 +79,7 @@ const Contact = () => {
                         <div className="contact-item contact-item3">
                             <h3 className="contact__title">Contact</h3>
                             <p className="contact__desc">
-                                needhelp@oxpitan.com <br />
+                                sierraleonerelief@yahoo.com <br />
                                 666 888 000
                             </p>
                         </div>

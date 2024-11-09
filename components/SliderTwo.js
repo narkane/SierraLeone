@@ -45,8 +45,8 @@ const SliderTwo = () => {
                                     <div className="row">
                                         <div className="col-lg-8 mx-auto">
                                             <div className="slider-heading">
-                                                <p className="slider__meta">welcome to oxpitan</p>
-                                                <h2 className="slider__title">Lend the helping hand get involved</h2>
+                                                <p className="slider__meta">welcome to sierra leone relief</p>
+                                                <h2 className="slider__title">Lend a helping hand get involved</h2>
                                                 <a href="#" className="theme-btn">discover more</a>
                                             </div>
                                         </div>
@@ -62,8 +62,8 @@ const SliderTwo = () => {
                                     <div className="row">
                                         <div className="col-lg-8 mx-auto">
                                             <div className="slider-heading">
-                                                <p className="slider__meta">welcome to oxpitan</p>
-                                                <h2 className="slider__title">Lend the helping hand get involved</h2>
+                                                <p className="slider__meta">welcome to sierra leone relief</p>
+                                                <h2 className="slider__title">Lend a helping hand get involved</h2>
                                                 <a href="#" className="theme-btn">discover more</a>
                                             </div>
                                         </div>

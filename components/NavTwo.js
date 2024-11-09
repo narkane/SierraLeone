@@ -57,9 +57,9 @@ class NavTwo extends Component {
                                 <div className="top-action-content">
                                     <div className="info-box info-box-1 d-flex align-items-center">
                                         <ul className="d-flex align-items-center">
-                                            <li><a href="#"><i className="fa fa-envelope"></i>needhelp@oxpitan.com</a>
+                                            <li><a href="#"><i className="fa fa-envelope"></i>sierraleonerelief@yahoo.com</a>
                                             </li>
-                                            <li><a href="#"><i className="fa fa-phone-square"></i>666 888 0000</a></li>
+                                            {/* <li><a href="#"><i className="fa fa-phone-square"></i>666 888 0000</a></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@ class NavTwo extends Component {
                                     <div className="ostion-logo">
                                         <Link href="/">
                                             <a href="">
-                                                <img src="/images/logo2.png" alt="Oxpitan" title="Oxpitan" />
+                                                <img src="/images/logo2.png" alt="Sierra Leone Relief" title="Sierra Leone Relief" />
                                             </a>
                                         </Link>
                                     </div>

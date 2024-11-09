@@ -67,10 +67,9 @@ class NavOne extends Component {
                                     <div className="top-action-content">
                                         <div className="info-box info-box-1 d-flex align-items-center">
                                             <ul className="d-flex align-items-center">
-                                                <li><a href="#"><i
-                                                    className="fa fa-envelope"></i>needhelp@oxpitan.com</a></li>
-                                                <li><a href="#"><i className="fa fa-phone-square"></i>666 888 0000</a>
-                                                </li>
+                                                {/* <li><a href="#"><i className="fa fa-phone-square"></i>666 888 0000</a> */}
+                                                <li><a href="#">
+                                                    <i className="fa fa-envelope"></i>sierraleonerelief@yahoo.com</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -100,7 +99,7 @@ class NavOne extends Component {
                                         <div className="ostion-logo">
                                             <Link href="/">
                                                 <a>
-                                                    <img src="/images/logo.png" alt="Oxpitan" title="Oxpitan" />
+                                                    <img src="/images/logo.png" alt="Sierra Leone Relief" title="Sierra Leone Relief" />
                                                 </a>
                                             </Link>
                                         </div>
@@ -136,17 +135,20 @@ class NavOne extends Component {
                                                                 <li><Link href="/events-detail"><a>events detail</a></Link></li>
                                                             </ul>
                                                         </li> */}
-                                                        <li><a href="#">news</a>
+                                                        {/*=========================
+                                                        == MAYBE USE NEWS
+                                                        ============================ */}
+                                                        {/* <li><a href="#">news</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/news"><a>news</a></Link></li>
                                                                 <li><Link href="/single-news"><a>news detail</a></Link></li>
                                                             </ul>
-                                                        </li>
+                                                        </li> */}
                                                         <li><a href="#">pages</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/about"><a>about</a></Link></li>
                                                                 <li><Link href="/gallery"><a>gallery</a></Link></li>
-                                                                <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>
+                                                                <li><Link href="/contact"><a>become a volunteer</a></Link></li>
                                                                 <li><Link href="/team"><a>our team</a></Link></li>
                                                                 <li><Link href="/sponsor"><a>sponsors</a></Link></li>
                                                             </ul>

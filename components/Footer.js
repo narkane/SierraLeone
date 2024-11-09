@@ -113,7 +113,7 @@ class Footer extends Component {
                                     <h3 className="widget__title">contact</h3>
                                     <ul className="contact__info">
                                         <li>660 Broklyn Street, 88 New York</li>
-                                        <li><a href="mailto:needhelp@oxpitan.com">needhelp@oxpitan.com</a></li>
+                                        <li><a href="mailto:sierraleonerelief@yahoo.com">sierraleonerelief@yahoo.com</a></li>
                                         <li><a href="tel:6668880000">666 888 0000</a></li>
                                     </ul>
                                     <div className="footer__social">
