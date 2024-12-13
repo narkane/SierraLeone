@@ -196,6 +196,7 @@
     .header-area .header-top-action .top-action-content {
         background-color: transparent;
         text-align: center;
+        display: none;
     }
     .header-area .header-top-action .top-action-content .info-box ul li a {
         color: #818181;

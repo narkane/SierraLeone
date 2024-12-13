@@ -18,7 +18,7 @@ const Donate = () => {
                         <div className="donate-item">
                             <h3 className="donate__title">Enter Your Donation</h3>
                             <div className="form-shared">
-                                <form action="#">
+                                <form>
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="yellow-form">
